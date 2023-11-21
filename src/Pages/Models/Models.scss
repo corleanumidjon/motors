@@ -1,0 +1,100 @@
+.modellar {
+  padding: 150px 0 50px;
+  &__title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 75px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  &__all {
+    margin-bottom: 75px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    background-color: initial;
+    box-shadow: 1px 1px 10px #ffffff;
+    color: #fff;
+  }
+  &__all:hover {
+    background-color: #ffd700;
+  }
+  &__car {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  &__card {
+    position: relative;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    color: #fff;
+    background-color: #1b222c;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  &__img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    display: flex;
+  }
+  &__title1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 10px rgb(0, 0, 11);
+  }
+  &__charaktiris {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 10px rgb(0, 0, 11);
+  }
+  &__price {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 10px rgb(0, 0, 11);
+  }
+  &__btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 1rem 0 1rem 0;
+    cursor: pointer;
+  }
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  width: 360px;
+  height: 410px;
+  border-radius: 1rem;
+}
+.swiper-pagination-bullet {
+  background-color: darkgray;
+}

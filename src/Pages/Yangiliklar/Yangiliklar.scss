@@ -1,0 +1,62 @@
+.yangiliklar {
+  padding: 150px 0 80px;
+  &__title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 80px;
+  }
+  &__card {
+    position: relative;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    color: #fff;
+    background-color: #1b222c;
+    margin-bottom: 50px;
+  }
+
+  &__item {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #fff;
+  }
+  &__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+  &__day {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

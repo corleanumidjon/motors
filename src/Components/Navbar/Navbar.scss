@@ -1,0 +1,37 @@
+.nav {
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.83);
+  backdrop-filter: blur(100px);
+  z-index: 1000;
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  &__item {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  &__logo {
+    width: 250px;
+    height: 100px;
+    object-fit: cover;
+  }
+  &__select{
+    z-index: 2000;
+  }
+  &__btn {
+    font-family: "Montserrat", sans-serif;
+  }
+}
